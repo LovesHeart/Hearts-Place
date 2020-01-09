@@ -1,0 +1,8 @@
+<view bindtap="onTap" class="container tag-class ">
+  <slot name="before"></slot>
+  <text>{{text}}</text>
+  <slot name="after"></slot>
+  <!-- slot 插槽 -->
+</view>
+
+<!-- 普通样式 外部样式 -->
